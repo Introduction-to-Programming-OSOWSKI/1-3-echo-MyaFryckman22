@@ -1,6 +1,6 @@
 #WRITE YOUR CODE IN THIS FILE
 #define function 
-def echo(x):
-    return("hello" * x)
+def echo(y,x):
+    return(y * x)
 
-print(echo(1))
+print(echo("hello", 5))
